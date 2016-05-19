@@ -154,9 +154,10 @@ client.new_orders params
           # etc ...
         }
       ],
-      AddService: {
-        ServiceCode: 2
-      }
+      AddService: [
+        {ServiceCode: 2},
+        {ServiceCode: 36}
+      ]
     },
     {
       Number: 'Номер отправления 2'
